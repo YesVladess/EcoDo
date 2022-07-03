@@ -1,14 +1,14 @@
 //
-//  EcoAppTests.swift
-//  EcoAppTests
+//  EcoDoTests.swift
+//  EcoDoTests
 //
 //  Created by YesVladess on 03.07.2022.
 //
 
 import XCTest
-@testable import EcoApp
+@testable import EcoDo
 
-class EcoAppTests: XCTestCase {
+class EcoDoTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

@@ -1,6 +1,6 @@
 //
 //  Persistence.swift
-//  EcoApp
+//  EcoDo
 //
 //  Created by YesVladess on 03.07.2022.
 //
@@ -8,14 +8,17 @@
 import CoreData
 
 struct PersistenceController {
+
     static let shared = PersistenceController()
 
+    /// A test configuration for SwiftUI previews
     static var preview: PersistenceController = {
         let result = PersistenceController(inMemory: true)
         let viewContext = result.container.viewContext
-        for _ in 0..<10 {
-            let newItem = Item(context: viewContext)
-            newItem.timestamp = Date()
+        for i in 0..<10 {
+            let newItem = ToDoItem(context: viewContext)
+            newItem.createdAt = Date()
+            newItem.name = "Name \(i)"
         }
         do {
             try viewContext.save()
@@ -28,10 +31,11 @@ struct PersistenceController {
         return result
     }()
 
+    /// Storage for Core Data
     let container: NSPersistentContainer
 
     init(inMemory: Bool = false) {
-        container = NSPersistentContainer(name: "EcoApp")
+        container = NSPersistentContainer(name: "EcoDo")
         if inMemory {
             container.persistentStoreDescriptions.first!.url = URL(fileURLWithPath: "/dev/null")
         }
@@ -52,5 +56,17 @@ struct PersistenceController {
             }
         })
         container.viewContext.automaticallyMergesChangesFromParent = true
+    }
+
+    func save() {
+        let context = container.viewContext
+
+        if context.hasChanges {
+            do {
+                try context.save()
+            } catch {
+                fatalError("Unresolved error \(error)")
+            }
+        }
     }
 }

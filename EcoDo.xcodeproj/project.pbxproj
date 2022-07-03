@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5A17B3B72871772400470CA3 /* EcoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A17B3B62871772400470CA3 /* EcoAppApp.swift */; };
+		5A17B3B72871772400470CA3 /* EcoDoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A17B3B62871772400470CA3 /* EcoDoApp.swift */; };
 		5A17B3B92871772400470CA3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A17B3B82871772400470CA3 /* ContentView.swift */; };
 		5A17B3BB2871772700470CA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A17B3BA2871772700470CA3 /* Assets.xcassets */; };
 		5A17B3BE2871772700470CA3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A17B3BD2871772700470CA3 /* Preview Assets.xcassets */; };
 		5A17B3C02871772700470CA3 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A17B3BF2871772700470CA3 /* Persistence.swift */; };
-		5A17B3C32871772700470CA3 /* EcoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5A17B3C12871772700470CA3 /* EcoApp.xcdatamodeld */; };
-		5A17B3CD2871772700470CA3 /* EcoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A17B3CC2871772700470CA3 /* EcoAppTests.swift */; };
-		5A17B3D72871772700470CA3 /* EcoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A17B3D62871772700470CA3 /* EcoAppUITests.swift */; };
-		5A17B3D92871772700470CA3 /* EcoAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A17B3D82871772700470CA3 /* EcoAppUITestsLaunchTests.swift */; };
+		5A17B3C32871772700470CA3 /* EcoDo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5A17B3C12871772700470CA3 /* EcoDo.xcdatamodeld */; };
+		5A17B3CD2871772700470CA3 /* EcoDoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A17B3CC2871772700470CA3 /* EcoDoTests.swift */; };
+		5A17B3E928717AA500470CA3 /* MyTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A17B3E828717AA500470CA3 /* MyTasks.swift */; };
+		5A17B3EB28717AC600470CA3 /* Wiki.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A17B3EA28717AC600470CA3 /* Wiki.swift */; };
+		5A17B3ED28717ADC00470CA3 /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A17B3EC28717ADC00470CA3 /* Planet.swift */; };
+		5A17B3EF28717AE800470CA3 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A17B3EE28717AE800470CA3 /* Settings.swift */; };
+		5A17B3F22871D73000470CA3 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A17B3F12871D73000470CA3 /* ToDoItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,28 +29,23 @@
 			remoteGlobalIDString = 5A17B3B22871772400470CA3;
 			remoteInfo = EcoApp;
 		};
-		5A17B3D32871772700470CA3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5A17B3AB2871772400470CA3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5A17B3B22871772400470CA3;
-			remoteInfo = EcoApp;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5A17B3B32871772400470CA3 /* EcoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A17B3B62871772400470CA3 /* EcoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoAppApp.swift; sourceTree = "<group>"; };
+		5A17B3B32871772400470CA3 /* EcoDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A17B3B62871772400470CA3 /* EcoDoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoDoApp.swift; sourceTree = "<group>"; };
 		5A17B3B82871772400470CA3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5A17B3BA2871772700470CA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A17B3BD2871772700470CA3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5A17B3BF2871772700470CA3 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		5A17B3C22871772700470CA3 /* EcoApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EcoApp.xcdatamodel; sourceTree = "<group>"; };
-		5A17B3C82871772700470CA3 /* EcoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A17B3CC2871772700470CA3 /* EcoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoAppTests.swift; sourceTree = "<group>"; };
-		5A17B3D22871772700470CA3 /* EcoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A17B3D62871772700470CA3 /* EcoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoAppUITests.swift; sourceTree = "<group>"; };
-		5A17B3D82871772700470CA3 /* EcoAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5A17B3C82871772700470CA3 /* EcoDoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcoDoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A17B3CC2871772700470CA3 /* EcoDoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoDoTests.swift; sourceTree = "<group>"; };
+		5A17B3E828717AA500470CA3 /* MyTasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTasks.swift; sourceTree = "<group>"; };
+		5A17B3EA28717AC600470CA3 /* Wiki.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wiki.swift; sourceTree = "<group>"; };
+		5A17B3EC28717ADC00470CA3 /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
+		5A17B3EE28717AE800470CA3 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		5A17B3F12871D73000470CA3 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,22 +63,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5A17B3CF2871772700470CA3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		5A17B3AA2871772400470CA3 = {
 			isa = PBXGroup;
 			children = (
-				5A17B3B52871772400470CA3 /* EcoApp */,
-				5A17B3CB2871772700470CA3 /* EcoAppTests */,
-				5A17B3D52871772700470CA3 /* EcoAppUITests */,
+				5A17B3B52871772400470CA3 /* EcoDo */,
+				5A17B3CB2871772700470CA3 /* EcoDoTests */,
 				5A17B3B42871772400470CA3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,24 +78,22 @@
 		5A17B3B42871772400470CA3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5A17B3B32871772400470CA3 /* EcoApp.app */,
-				5A17B3C82871772700470CA3 /* EcoAppTests.xctest */,
-				5A17B3D22871772700470CA3 /* EcoAppUITests.xctest */,
+				5A17B3B32871772400470CA3 /* EcoDo.app */,
+				5A17B3C82871772700470CA3 /* EcoDoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5A17B3B52871772400470CA3 /* EcoApp */ = {
+		5A17B3B52871772400470CA3 /* EcoDo */ = {
 			isa = PBXGroup;
 			children = (
-				5A17B3B62871772400470CA3 /* EcoAppApp.swift */,
-				5A17B3B82871772400470CA3 /* ContentView.swift */,
-				5A17B3BA2871772700470CA3 /* Assets.xcassets */,
-				5A17B3BF2871772700470CA3 /* Persistence.swift */,
-				5A17B3C12871772700470CA3 /* EcoApp.xcdatamodeld */,
+				5A17B3B62871772400470CA3 /* EcoDoApp.swift */,
+				5A17B3F02871D71500470CA3 /* CoreData */,
+				5A17B3E628717A7400470CA3 /* UI */,
+				5A17B3E52871799500470CA3 /* SupportingFiles */,
 				5A17B3BC2871772700470CA3 /* Preview Content */,
 			);
-			path = EcoApp;
+			path = EcoDo;
 			sourceTree = "<group>";
 		};
 		5A17B3BC2871772700470CA3 /* Preview Content */ = {
@@ -116,29 +104,58 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		5A17B3CB2871772700470CA3 /* EcoAppTests */ = {
+		5A17B3CB2871772700470CA3 /* EcoDoTests */ = {
 			isa = PBXGroup;
 			children = (
-				5A17B3CC2871772700470CA3 /* EcoAppTests.swift */,
+				5A17B3CC2871772700470CA3 /* EcoDoTests.swift */,
 			);
-			path = EcoAppTests;
+			path = EcoDoTests;
 			sourceTree = "<group>";
 		};
-		5A17B3D52871772700470CA3 /* EcoAppUITests */ = {
+		5A17B3E52871799500470CA3 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
-				5A17B3D62871772700470CA3 /* EcoAppUITests.swift */,
-				5A17B3D82871772700470CA3 /* EcoAppUITestsLaunchTests.swift */,
+				5A17B3BA2871772700470CA3 /* Assets.xcassets */,
 			);
-			path = EcoAppUITests;
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		5A17B3E628717A7400470CA3 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				5A17B3B82871772400470CA3 /* ContentView.swift */,
+				5A17B3E728717A7B00470CA3 /* Screens */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		5A17B3E728717A7B00470CA3 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				5A17B3E828717AA500470CA3 /* MyTasks.swift */,
+				5A17B3EC28717ADC00470CA3 /* Planet.swift */,
+				5A17B3EA28717AC600470CA3 /* Wiki.swift */,
+				5A17B3EE28717AE800470CA3 /* Settings.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		5A17B3F02871D71500470CA3 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				5A17B3BF2871772700470CA3 /* Persistence.swift */,
+				5A17B3F12871D73000470CA3 /* ToDoItem.swift */,
+				5A17B3C12871772700470CA3 /* EcoDo.xcdatamodeld */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5A17B3B22871772400470CA3 /* EcoApp */ = {
+		5A17B3B22871772400470CA3 /* EcoDo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5A17B3DC2871772700470CA3 /* Build configuration list for PBXNativeTarget "EcoApp" */;
+			buildConfigurationList = 5A17B3DC2871772700470CA3 /* Build configuration list for PBXNativeTarget "EcoDo" */;
 			buildPhases = (
 				5A17B3AF2871772400470CA3 /* Sources */,
 				5A17B3B02871772400470CA3 /* Frameworks */,
@@ -148,14 +165,14 @@
 			);
 			dependencies = (
 			);
-			name = EcoApp;
+			name = EcoDo;
 			productName = EcoApp;
-			productReference = 5A17B3B32871772400470CA3 /* EcoApp.app */;
+			productReference = 5A17B3B32871772400470CA3 /* EcoDo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5A17B3C72871772700470CA3 /* EcoAppTests */ = {
+		5A17B3C72871772700470CA3 /* EcoDoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5A17B3DF2871772700470CA3 /* Build configuration list for PBXNativeTarget "EcoAppTests" */;
+			buildConfigurationList = 5A17B3DF2871772700470CA3 /* Build configuration list for PBXNativeTarget "EcoDoTests" */;
 			buildPhases = (
 				5A17B3C42871772700470CA3 /* Sources */,
 				5A17B3C52871772700470CA3 /* Frameworks */,
@@ -166,28 +183,10 @@
 			dependencies = (
 				5A17B3CA2871772700470CA3 /* PBXTargetDependency */,
 			);
-			name = EcoAppTests;
+			name = EcoDoTests;
 			productName = EcoAppTests;
-			productReference = 5A17B3C82871772700470CA3 /* EcoAppTests.xctest */;
+			productReference = 5A17B3C82871772700470CA3 /* EcoDoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		5A17B3D12871772700470CA3 /* EcoAppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5A17B3E22871772700470CA3 /* Build configuration list for PBXNativeTarget "EcoAppUITests" */;
-			buildPhases = (
-				5A17B3CE2871772700470CA3 /* Sources */,
-				5A17B3CF2871772700470CA3 /* Frameworks */,
-				5A17B3D02871772700470CA3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5A17B3D42871772700470CA3 /* PBXTargetDependency */,
-			);
-			name = EcoAppUITests;
-			productName = EcoAppUITests;
-			productReference = 5A17B3D22871772700470CA3 /* EcoAppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -206,13 +205,9 @@
 						CreatedOnToolsVersion = 13.4.1;
 						TestTargetID = 5A17B3B22871772400470CA3;
 					};
-					5A17B3D12871772700470CA3 = {
-						CreatedOnToolsVersion = 13.4.1;
-						TestTargetID = 5A17B3B22871772400470CA3;
-					};
 				};
 			};
-			buildConfigurationList = 5A17B3AE2871772400470CA3 /* Build configuration list for PBXProject "EcoApp" */;
+			buildConfigurationList = 5A17B3AE2871772400470CA3 /* Build configuration list for PBXProject "EcoDo" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -225,9 +220,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5A17B3B22871772400470CA3 /* EcoApp */,
-				5A17B3C72871772700470CA3 /* EcoAppTests */,
-				5A17B3D12871772700470CA3 /* EcoAppUITests */,
+				5A17B3B22871772400470CA3 /* EcoDo */,
+				5A17B3C72871772700470CA3 /* EcoDoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -249,13 +243,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5A17B3D02871772700470CA3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -265,8 +252,13 @@
 			files = (
 				5A17B3C02871772700470CA3 /* Persistence.swift in Sources */,
 				5A17B3B92871772400470CA3 /* ContentView.swift in Sources */,
-				5A17B3B72871772400470CA3 /* EcoAppApp.swift in Sources */,
-				5A17B3C32871772700470CA3 /* EcoApp.xcdatamodeld in Sources */,
+				5A17B3F22871D73000470CA3 /* ToDoItem.swift in Sources */,
+				5A17B3EF28717AE800470CA3 /* Settings.swift in Sources */,
+				5A17B3E928717AA500470CA3 /* MyTasks.swift in Sources */,
+				5A17B3B72871772400470CA3 /* EcoDoApp.swift in Sources */,
+				5A17B3ED28717ADC00470CA3 /* Planet.swift in Sources */,
+				5A17B3C32871772700470CA3 /* EcoDo.xcdatamodeld in Sources */,
+				5A17B3EB28717AC600470CA3 /* Wiki.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,16 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A17B3CD2871772700470CA3 /* EcoAppTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5A17B3CE2871772700470CA3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5A17B3D92871772700470CA3 /* EcoAppUITestsLaunchTests.swift in Sources */,
-				5A17B3D72871772700470CA3 /* EcoAppUITests.swift in Sources */,
+				5A17B3CD2871772700470CA3 /* EcoDoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,13 +275,8 @@
 /* Begin PBXTargetDependency section */
 		5A17B3CA2871772700470CA3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5A17B3B22871772400470CA3 /* EcoApp */;
+			target = 5A17B3B22871772400470CA3 /* EcoDo */;
 			targetProxy = 5A17B3C92871772700470CA3 /* PBXContainerItemProxy */;
-		};
-		5A17B3D42871772700470CA3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5A17B3B22871772400470CA3 /* EcoApp */;
-			targetProxy = 5A17B3D32871772700470CA3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -424,7 +402,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"EcoApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"EcoDo/Preview Content\"";
 				DEVELOPMENT_TEAM = 2S3C473DW6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -438,7 +416,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.YesVladess.EcoApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.YesVladess.EcoDo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -453,7 +431,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"EcoApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"EcoDo/Preview Content\"";
 				DEVELOPMENT_TEAM = 2S3C473DW6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -467,7 +445,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.YesVladess.EcoApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.YesVladess.EcoDo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -486,12 +464,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.YesVladess.EcoAppTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.YesVladess.EcoDoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EcoApp.app/EcoApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EcoDo.app/EcoDo";
 			};
 			name = Debug;
 		};
@@ -506,55 +484,19 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.YesVladess.EcoAppTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.YesVladess.EcoDoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EcoApp.app/EcoApp";
-			};
-			name = Release;
-		};
-		5A17B3E32871772700470CA3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2S3C473DW6;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.YesVladess.EcoAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = EcoApp;
-			};
-			name = Debug;
-		};
-		5A17B3E42871772700470CA3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2S3C473DW6;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.YesVladess.EcoAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = EcoApp;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EcoDo.app/EcoDo";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5A17B3AE2871772400470CA3 /* Build configuration list for PBXProject "EcoApp" */ = {
+		5A17B3AE2871772400470CA3 /* Build configuration list for PBXProject "EcoDo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5A17B3DA2871772700470CA3 /* Debug */,
@@ -563,7 +505,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5A17B3DC2871772700470CA3 /* Build configuration list for PBXNativeTarget "EcoApp" */ = {
+		5A17B3DC2871772700470CA3 /* Build configuration list for PBXNativeTarget "EcoDo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5A17B3DD2871772700470CA3 /* Debug */,
@@ -572,7 +514,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5A17B3DF2871772700470CA3 /* Build configuration list for PBXNativeTarget "EcoAppTests" */ = {
+		5A17B3DF2871772700470CA3 /* Build configuration list for PBXNativeTarget "EcoDoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5A17B3E02871772700470CA3 /* Debug */,
@@ -581,25 +523,16 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5A17B3E22871772700470CA3 /* Build configuration list for PBXNativeTarget "EcoAppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5A17B3E32871772700470CA3 /* Debug */,
-				5A17B3E42871772700470CA3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		5A17B3C12871772700470CA3 /* EcoApp.xcdatamodeld */ = {
+		5A17B3C12871772700470CA3 /* EcoDo.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				5A17B3C22871772700470CA3 /* EcoApp.xcdatamodel */,
 			);
 			currentVersion = 5A17B3C22871772700470CA3 /* EcoApp.xcdatamodel */;
-			path = EcoApp.xcdatamodeld;
+			path = EcoDo.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
